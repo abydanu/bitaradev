@@ -49,31 +49,33 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    // url: "https://bitaradev.com",
+    url: "https://bitaradev.vercel.app",
     title: "Bitara Dev - Jasa Pembuatan Website Profesional & Terjangkau",
-    description: "Jasa pembuatan website profesional, cepat, dan terjangkau di Indonesia. Solusi digital untuk UMKM dan bisnis dengan harga bersahabat.",
+    description: "Wujudkan impian digitalmu! Website profesional mulai dari harga terjangkau. Proses cepat, hasil berkualitas. Melayani seluruh Indonesia - Madiun, Jember, Surabaya & sekitarnya. Hubungi kami sekarang!",
     siteName: "Bitara Dev",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://bitaradev.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Bitara Dev - Jasa Pembuatan Website",
+        alt: "Bitara Dev - Jasa Pembuatan Website Profesional Indonesia",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Bitara Dev - Jasa Pembuatan Website Profesional",
-    description: "Jasa pembuatan website profesional dan terjangkau di Indonesia",
-    images: ["/og-image.jpg"],
+    description: "Wujudkan impian digitalmu! Website profesional dengan harga terjangkau. Proses cepat, hasil berkualitas.",
+    images: ["https://bitaradev.vercel.app/og-image.jpg"],
+    creator: "@bitaradev", 
   },
   alternates: {
-    // canonical: "https://bitaradev.com",
+    canonical: "https://bitaradev.com",
   },
-  verification: {
-    // google: "", 
-  },
+  // verification: {
+  //   google: ""
+  // },
   other: {
     "geo.region": "ID-JI",
     "geo.placename": "Madiun, Jember, Surabaya, Jawa Timur",
@@ -111,7 +113,7 @@ export default function RootLayout({
                 },
                 {
                   "@type": "City",
-                  "name": "Surabaya"
+                  "name": "Kediri"
                 },
                 {
                   "@type": "State",
