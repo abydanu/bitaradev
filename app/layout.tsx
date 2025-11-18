@@ -73,9 +73,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://bitaradev.vercel.app",
   },
-  // verification: {
-  //   google: ""
-  // },
+  verification: {
+    google: "google-site-verification=9cp9UYxtyLhzPZfeIE9oXnb8QLPhcvcTxrOhaB5pLpA"
+  },
   other: {
     "geo.region": "ID-JI",
     "geo.placename": "Madiun, Jember, Surabaya, Jawa Timur",
