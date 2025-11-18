@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     creator: "@bitaradev", 
   },
   alternates: {
-    canonical: "https://bitaradev.com",
+    canonical: "https://bitaradev.vercel.app",
   },
   // verification: {
   //   google: ""
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   other: {
     "geo.region": "ID-JI",
     "geo.placename": "Madiun, Jember, Surabaya, Jawa Timur",
-    "geo.position": "-7.629757;111.524122",
+    "ICBM": "-7.629757;111.524122",
   },
 };
 
@@ -99,7 +99,7 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               "name": "Bitara Dev",
               "description": "Jasa pembuatan website profesional dan terjangkau di Indonesia",
-              "url": "https://bitaradev.com",
+              "url": "https://bitaradev.vercel.app",
               "telephone": "+6283136863620",
               "priceRange": "$$",
               "areaServed": [
