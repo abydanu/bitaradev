@@ -73,9 +73,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://bitaradev.vercel.app",
   },
-  verification: {
-    google: "google-site-verification=9cp9UYxtyLhzPZfeIE9oXnb8QLPhcvcTxrOhaB5pLpA"
-  },
   other: {
     "geo.region": "ID-JI",
     "geo.placename": "Madiun, Jember, Surabaya, Jawa Timur",
@@ -91,6 +88,7 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
+        <meta name="google-site-verification" content="C11AoiDaZwvjiUxnp8DN4o-sDAircX-icm91Ixn448w" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
