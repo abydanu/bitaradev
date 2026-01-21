@@ -46,7 +46,7 @@ export const portofolioData: PortfolioItem[] = [
         category: 'Other',
         description: 'Aplikasi berbasis web untuk mengelola absensi karyawan secara real-time, dilengkapi fitur check-in lokasi, rekap kehadiran, dan monitoring data absensi bulanan secara terpusat.',
         image: '/portofolio/absensi.jpeg',
-        link: "#"
+        link: "https://internal.asadreamland.com"
     },
     {
         id: 6,
@@ -54,6 +54,6 @@ export const portofolioData: PortfolioItem[] = [
         category: 'Company Profile',
         description: 'Website promosi properti untuk menampilkan informasi perumahan, tipe rumah, harga, dan promo secara visual, responsif, dan mudah diakses oleh calon pembeli.',
         image: '/portofolio/mockup-perumahan.jpeg',
-        link: "#"
+        link: "https://asadreamland.com"
     },
 ];
