@@ -88,7 +88,7 @@ const Footer = () => {
                 <div className="pt-8 ">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-gray-500 text-sm">
-                            © 2025 Bitara Dev. All Right Reserved.
+                            © {new Date().getFullYear()} Bitara Dev. All Right Reserved.
                         </p>
 
                         <div className="flex gap-3">
