@@ -16,7 +16,6 @@ const TestimoniCard = ({ testimonial }: { testimonial: Testimonial }) => {
             <p className="text-gray-600 italic mb-6 leading-relaxed text-[15px] md:text-base">{testimonial.text}</p>
             <div>
                 <p className="font-semibold text-gray-900">{testimonial.author}</p>
-                <p className="text-gray-500 text-sm">{testimonial.company}</p>
             </div>
         </div>
     )

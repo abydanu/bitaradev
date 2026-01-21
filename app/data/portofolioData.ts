@@ -10,50 +10,50 @@ export interface PortfolioItem {
 export const portofolioData: PortfolioItem[] = [
     {
         id: 1,
-        title: 'Sistem Informasi Desa Modern',
-        category: 'Pengembangan Sistem Informasi',
-        description: 'Layanan administrasi secara berbasis web untuk mempermudah pembuatan surat, dokumen dan layanan publik',
-        image: '/portofolio/porto.jpg', 
-        link: "https://abydanu.my.id"
+        title: 'Danu Rent Car',
+        category: 'Company Profile',
+        description: 'Landing Page Rental Mobil berbasis CMS menampilkan layanan, daftar mobil, dan informasi kontak secara ringkas dan menarik',
+        image: '/portofolio/rental-mobil.png', 
+        link: "https://rental-mobil-danu.vercel.app"
     },
     {
         id: 2,
-        title: 'Aplikasi Pembelajaran',
-        category: 'Pengembangan Sistem Informasi',
-        description: 'Sistem informasi untuk manajemen pembelajaran dan ujian online',
-        image: '/portofolio/porto.jpg',
-        link: "https://indibizrayamadiun.vercel.app"
+        title: 'Sistem Pengaduan Masyarakat',
+        category: 'Other',
+        description: 'Sistem pengaduan masyarakat berbasis web untuk menampung, mengelola, dan menindaklanjuti laporan warga secara terstruktur, transparan, dan mudah digunakan',
+        image: '/portofolio/sipengmas.png',
+        link: "https://sistem-pengaduan-masyarakat-bice.vercel.app"
     },
     {
         id: 3,
-        title: 'Konversi Dokumen dan File',
+        title: 'Sistem Manajemen Indibiz Telkom',
         category: 'Other',
-        description: 'Aplikasi untuk konversi berbagai format dokumen dengan mudah',
-        image: '/portofolio/porto.jpg',
-        link: "https://abydanu.my.id"
+        description: 'Aplikasi manajemen terintegrasi untuk pengelolaan data sales, paket layanan, dan input pelanggan Indibiz agar proses administrasi lebih efisien dan terstruktur.',
+        image: '/portofolio/telkom.png',
+        link: "https://indibizrayamadiun.vercel.app"
     },
     {
         id: 4,
-        title: 'Premium Encryption',
-        category: 'Other',
-        description: 'Sistem enkripsi data tingkat premium untuk keamanan maksimal',
-        image: '/portofolio/porto.jpg',
-        link: "https://abydanu.my.id"
+        title: 'Website Booking & Informasi Bus AD-Trans',
+        category: 'Company Profile',
+        description: 'Website layanan transportasi yang menyediakan informasi armada, keunggulan layanan, serta kemudahan pemesanan dan komunikasi antara pelanggan dan admin.',
+        image: '/portofolio/booking-bus.jpeg',
+        link: "#"
     },
     {
         id: 5,
-        title: 'PhotoBox Studio',
+        title: 'Sistem Absensi Karyawan',
         category: 'Other',
-        description: 'Platform manajemen studio foto profesional',
-        image: '/portofolio/porto.jpg',
-        link: "https://abydanu.my.id"
+        description: 'Aplikasi berbasis web untuk mengelola absensi karyawan secara real-time, dilengkapi fitur check-in lokasi, rekap kehadiran, dan monitoring data absensi bulanan secara terpusat.',
+        image: '/portofolio/absensi.jpeg',
+        link: "#"
     },
     {
         id: 6,
-        title: 'Sistem Kesehatan Terintegrasi',
-        category: 'Pengembangan Sistem Informasi',
-        description: 'Solusi digital untuk manajemen data kesehatan dan rekam medis',
-        image: '/portofolio/porto.jpg',
-        link: "https://abydanu.my.id"
-    }
+        title: 'Website Promosi Perumahan',
+        category: 'Company Profile',
+        description: 'Website promosi properti untuk menampilkan informasi perumahan, tipe rumah, harga, dan promo secara visual, responsif, dan mudah diakses oleh calon pembeli.',
+        image: '/portofolio/mockup-perumahan.jpeg',
+        link: "#"
+    },
 ];

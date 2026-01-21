@@ -41,10 +41,18 @@ const PaketSection = () => {
             opacity: 1,
             x: 0,
             transition: {
-                delay: index * 0.1, 
+                delay: index * 0.1,
                 duration: 0.4
             }
         })
+    }
+
+    const getWhatsAppLink = (paket: typeof paketHarga[0]) => {
+        const phoneNumber = "6283136863620"
+
+        const message = `Halo, saya tertarik dengan paket *${paket.nama}* (${paket.harga}${paket.periode})`
+
+        return `https://wa.me/${phoneNumber}?text=${message}`
     }
 
     return (
@@ -162,18 +170,19 @@ const PaketSection = () => {
                                 </ul>
                             </div>
 
-                            <motion.button
-                                className='relative overflow-hidden w-full py-4 px-6 rounded-xl font-semibold transition-all duration-500 group/btn shadow-md bg-linear-to-r from-bitara-primary via-bitara-primary to-bitara-dark text-white'
+                            <motion.a
+                                href={getWhatsAppLink(paket)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='relative overflow-hidden w-full py-4 px-6 rounded-xl font-semibold transition-all duration-500 group/btn shadow-md bg-linear-to-r from-bitara-primary via-bitara-primary to-bitara-dark text-white block text-center'
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.5, duration: 0.4 }}
                                 viewport={{ once: true }}
                             >
                                 <div className="absolute inset-0 -left-full group-hover/btn:left-full transition-all duration-700 bg-white/20 skew-x-12"></div>
-                                <a className="relative inline-flex items-center justify-center overflow-hidden group/btn hover:cursor-pointer" href="https://wa.me/6283136863620" target="_blank" rel="noopener noreferrer">
-                                    <span className="relative z-10">{paket.textTombol}</span>
-                                </a>
-                            </motion.button>
+                                <span className="relative z-10">{paket.textTombol}</span>
+                            </motion.a>
 
                         </motion.div>
                     ))}

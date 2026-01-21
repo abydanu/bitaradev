@@ -75,7 +75,7 @@ const PortofolioCard = ({ item }: { item: PortfolioItem }) => {
                     </motion.div>
 
                     <motion.p
-                        className="text-white/90 text-sm leading-relaxed line-clamp-3"
+                        className="text-white text-sm leading-relaxed line-clamp-3"
                         initial={{ y: 20, opacity: 0 }}
                         animate={isHovered ? { y: 0, opacity: 1 } : { y: 20, opacity: 0 }}
                         transition={{ duration: 0.4, delay: 0.2 }}

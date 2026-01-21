@@ -9,7 +9,7 @@ const PortfolioSection: React.FC = () => {
 
     const filters = [
         'Semua Proyek',
-        'Pengembangan Sistem Informasi',
+        'Company Profile',
         'Toko Online (E-Commerce)',
         'Other'
     ];

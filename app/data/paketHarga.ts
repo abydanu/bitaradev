@@ -9,8 +9,8 @@ interface PaketTier {
 
 export const paketHarga: PaketTier[] = [
     {
-        nama: "Landing Page",
-        harga: "Rp 499.000",
+        nama: "Company Profile",
+        harga: "Rp 450.000",
         periode: "/ project",
         deskripsi: "Cocok untuk bisnis kecil",
         fitur: [
@@ -23,8 +23,8 @@ export const paketHarga: PaketTier[] = [
         textTombol: "Mulai Sekarang"
     },
     {
-        nama: "E-Commerce",
-        harga: "Rp 10.000.000",
+        nama: "Toko Online (E-Commerce)",
+        harga: "Rp 8.000.000",
         periode: "/ project",
         deskripsi: "Untuk toko online",
         fitur: [
